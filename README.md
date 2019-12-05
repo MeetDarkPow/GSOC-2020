@@ -6,7 +6,6 @@ Packages used in these tests are as follows:
 * tidyverse (ggplot2)
 * microbenchmark
 <br>
-
 ### Easy Test
 ```
 #################### Easy Test ####################
@@ -62,4 +61,4 @@ computation_graph <- function(sets) {
 }
 ```
 Output PLot: <br>
-<img src="Mean Timings.png" width="100%"> <br>
+<img src="Mean_Timings.png" width="100%"> <br>
