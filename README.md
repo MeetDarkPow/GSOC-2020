@@ -62,3 +62,4 @@ computation_graph <- function(sets) {
 }
 ```
 Output PLot: <br>
+<img src="Mean Timings.png" width="100%"> <br>
