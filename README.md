@@ -61,5 +61,5 @@ computation_graph <- function(sets) {
     theme_bw(base_size = 15)
 }
 ```
-Output PLot: <br>
+Output Plot: <br>
 <img src="Rplot_Mean_Timings.png" width="100%"> <br>
