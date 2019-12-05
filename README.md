@@ -58,7 +58,9 @@ computation_graph <- function(sets) {
     scale_x_log10() + scale_y_log10() +
     xlab("N") + labs(colour = "Function Comparison") + 
     ylab("Execution Time") + 
-    theme_bw(base_size = 15)
+    theme_bw(base_size = 15) + 
+    geom_point(aes(y = cdpa, colour = "cDPA"), size=2, shape=19) +
+    geom_point(aes(y = pdpa, colour = "PeakSegPDPA"), size=2, shape=19)
 }
 ```
 Output Plot: <br>
